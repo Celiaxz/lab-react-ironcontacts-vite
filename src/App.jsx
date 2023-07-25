@@ -92,8 +92,8 @@ function App() {
                 <td>
                   <h3>{oneContact.popularity}</h3>
                 </td>
-                <td>{oneContact.wonOscar ? "🏆" : null}</td>
-                <td>{oneContact.wonEmmy ? "🔥" : null}</td>
+                <td>{oneContact.wonOscar ? "🏆" : undefined}</td>
+                <td>{oneContact.wonEmmy ? "🔥" : undefined}</td>
                 <td>
                   <button onClick={() => deleteContact(oneContact.id)}>
                     Delete
